@@ -5,7 +5,7 @@ import cards from './cards.json'
 import { useState } from 'react';
 
 const GameContainer = () => {
-  const MAX_NUM_MATCHED_CARDS = 2
+  const MATCH_GOAL = 2
 
   // Fisher-Yates shuffle algorithm
   const shuffleCards = (cards) => {
@@ -36,6 +36,8 @@ const GameContainer = () => {
     // If the card is already matched, return
     if (gameState.matchedCards.find(card => card.id === id)) return false
 
+    if (gameState.flippedCards.length === MATCH_GOAL) return false
+
     return true
   }
 
@@ -59,7 +61,7 @@ const GameContainer = () => {
     const cardsMatch = cards.every(card => card.color === cards[0].color)
 
     // If cards match and reach number of cards to match
-    if (cardsMatch && cards.length === MAX_NUM_MATCHED_CARDS) {
+    if (cardsMatch && cards.length === MATCH_GOAL) {
       setGameState({
         ...gameState,
         flippedCards: [],
