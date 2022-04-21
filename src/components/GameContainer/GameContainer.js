@@ -57,7 +57,7 @@ const GameContainer = () => {
   }
 
   const gameFinished = () => {
-    return (gameState.score === 0 || gameState.newGame || gameState.matchedCards.length === gameState.cards)
+    return (gameState.score === 0 || gameState.newGame || gameState.matchedCards.length === gameState.cards.length)
   }
 
   // Fisher-Yates shuffle algorithm
