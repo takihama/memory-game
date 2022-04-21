@@ -58,5 +58,65 @@
     "id": 12,
     "color": "purple",
     "isFlipped": false
+  },
+  {
+    "id": 13,
+    "color": "white",
+    "isFlipped": false
+  },
+  {
+    "id": 14,
+    "color": "white",
+    "isFlipped": false
+  },
+  {
+    "id": 15,
+    "color": "black",
+    "isFlipped": false
+  },
+  {
+    "id": 16,
+    "color": "black",
+    "isFlipped": false
+  },
+  {
+    "id": 17,
+    "color": "lightblue",
+    "isFlipped": false
+  },
+  {
+    "id": 18,
+    "color": "lightblue",
+    "isFlipped": false
+  },
+  {
+    "id": 19,
+    "color": "greenyellow",
+    "isFlipped": false
+  },
+  {
+    "id": 20,
+    "color": "greenyellow",
+    "isFlipped": false
+  },
+  {
+    "id": 21,
+    "color": "olive",
+    "isFlipped": false
+  },
+  {
+    "id": 22,
+    "color": "olive",
+    "isFlipped": false
+  },
+  {
+    "id": 23,
+    "color": "hotpink",
+    "isFlipped": false
+  },
+  {
+    "id": 24,
+    "color": "hotpink",
+    "isFlipped": false
   }
 ]

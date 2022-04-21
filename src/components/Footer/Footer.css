@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 800px;
+  height: 35px;
+  background: #17c35c;
+}
